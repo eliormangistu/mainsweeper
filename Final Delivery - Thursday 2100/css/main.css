@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(183, 238, 238);
+    
+}
+
+
+h1{
+    color: purple;
+    margin-left: 550px;
+    
+    
+}
+
+
+table, td{
+    border: 2px solid rgb(195 65 142);
+    margin-left: 500px;
+    margin-top: 100px;
+    
+}
+
+.board td {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.5s;
+    margin: auto;
+       
+}
+
+.marked {
+    background-color: gray;
+}
+
+.marked:hover {
+    font-size: 2em;
+}
+
+.cell {
+    background-color: greenyellow;
+    font-size: 1.5em;
+    cursor: pointer;
+    
+    
+
+}
+
+.cell:hover {
+    opacity: 0.5;
+}
+
+
+
+
